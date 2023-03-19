@@ -11,20 +11,17 @@ class Calendar {
         $stmt = $this->conn->prepare($sql); 
         $stmt->bindParam(':start', $start);
         $stmt->bindParam(':end', $end);
-        $stmt->execute();
-    
+        $stmt->execute(); 
         $events = $stmt->fetchAll(PDO::FETCH_ASSOC);
         return $events;
     }
 
     public function addEvent($title, $start, $end) {
         $sql = "INSERT INTO events (title, start, end) VALUES (:title, :start, :end)";
-        $stmt = $this->conn->prepare($sql);
-
+        $stmt = $this->conn->prepare($sql); 
         $stmt->bindParam(':title', $title);
         $stmt->bindParam(':start', $start);
-        $stmt->bindParam(':end', $end);
-
+        $stmt->bindParam(':end', $end); 
         $stmt->execute();
     }
 
