@@ -12,7 +12,7 @@
     <ol>
         <li>Clone the repository or download the zip file.</li>
         <li>Create a new database and import the <code>calender.sql</code> file located in the <code>db</code> folder.</li>
-        <li>Configure your database credentials in <code>db.php</code>.</li> 
+        <li>Configure your database credentials in <code>config/db.php</code>.</li> 
         <li>Run the project in your local server.</li>
     </ol>
     <h2>Usage</h2>
