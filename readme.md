@@ -1,5 +1,4 @@
 <div class="markdown prose w-full break-words dark:prose-invert light">
-    <p>Tabii, aşağıda FullCalendar hakkında bir README.md örneği sunuyorum:</p>
     <h1>FullCalendar Example</h1>
     <p>This is an example project demonstrating how to use FullCalendar with PHP and MySQL.</p>
     <h2>Requirements</h2>
